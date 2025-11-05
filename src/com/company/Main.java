@@ -10,7 +10,7 @@ public class Main {
        Connection conn=db.connect_to_db("Dbtrial","postgres","Vinay@786");
 //       db.createTable(conn,"employee");
 //       db.insert_row(conn,"employee","vinay","ghatkesar");
-//        db.insert_row(conn,"employee","Vamshi","Hyderabad");
+        db.insert_row(conn,"employee","Vamshi","Hyderabad");
 //        db.insert_row(conn,"employee","Kumar","Valigonda");
 //        db.update_name(conn,"employee","Vamsh","Krishna");
 //        db.search_by_name(conn,"employee","Vamshi");
