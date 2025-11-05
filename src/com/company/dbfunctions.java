@@ -104,6 +104,7 @@ public class dbfunctions {
     public void delete_table(Connection conn,String table_name){
         Statement stmt;
         try {
+
             String query=String.format("delete table %s",table_name);
             stmt= conn.createStatement();
             stmt.executeUpdate(query);
