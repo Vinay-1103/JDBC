@@ -3,6 +3,7 @@ package com.company;
 import java.sql.Connection;
 
 public class Main {
+
     public static void main(String[] args) {
        dbfunctions db=new dbfunctions();
        Connection conn=db.connect_to_db("Dbtrial","postgres","Vinay@786");
