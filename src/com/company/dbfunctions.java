@@ -86,6 +86,7 @@ public class dbfunctions {
             }
         }catch (Exception e){
             System.out.println(e);
+
         }
     }
     public void delete_row_by_name(Connection conn,String table_name,String name){
